@@ -1,0 +1,50 @@
+:root {
+    --background-color: rgb(33, 33, 33);
+    --text-color: rgb(200, 200, 200);
+    --link-color: rgb(125, 125, 125);
+    --link-hover-color: rgb(212, 75, 12);
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+    color: rgb(200, 200, 200);
+    overflow: hidden;
+    height: 100vh;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    margin: 0 90vw 1rem 0;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+.containter {
+    margin: 10px 10px;
+    display: inline;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+img {
+    margin: 5vh 50vw;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.about-me {
+    width: 50%;
+    margin-left: 25%;
+}

@@ -1,0 +1,33 @@
+:root {
+    --background-color: rgb(33, 33, 33);
+    --text-color: rgb(200, 200, 200);
+    --link-color: rgb(125, 125, 125);
+    --link-hover-color: rgb(212, 75, 12);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 18vw;
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    margin: 0 90vw 1rem 0;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
